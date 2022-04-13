@@ -1,0 +1,133 @@
+
+/*Обращаемся к корневому тегу body*/
+body {
+    background: #b8c9c5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+/* Селектор по ID */
+#header {
+    background: #242424;
+    color: #c7e9cc;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+/*Селектор по классу*/
+.card {
+    padding: 30px; 
+    background: #008a00;
+    /* margin-bottom: 50px; */
+    color:rgb(199, 228, 199);
+    line-height: 20px;
+    /* font-weight: bold; */
+    /* text-decoration: line-through; */
+    letter-spacing: 1px;
+    /* word-spacing: 10px; */
+
+}
+
+/* Селектор по подклассу */
+.one {
+    background: #003e00;
+    color:#b8c9c5
+}
+
+/* Селектор по подклассу */
+.two {
+    background: #63c568;
+    color:#003e00
+}
+
+/* Селектор дочерний, у него больший приоритет, чем родительского */
+.card p {
+    font-size: 15px;
+}
+
+/* Составной селектор из нескольких классов */
+#header, .card {
+    margin-bottom: 20px;
+}
+
+/* Обращаюсь только к 4й карточке */
+.four {
+    background: #95b3ac;
+    color:#242424;
+    font-size: 12px;
+}
+
+/* Обращаюсь к селектору цвет с фиксированным тестом*/
+.color-1 {
+    color: BlueViolet;
+
+}
+
+/* Обращаюсь к селектору цвет с помощью кода rgb*/
+.color-2 {
+    color: #8B0000;
+}
+
+/* Непрозрачность цвета */
+.color-3 {
+    color: DodgerBlue;
+    opacity: 0.6;
+}
+
+/* Обращаюсь к классу five */
+.five {
+    background: powderblue;
+    color:#242424;
+    border-radius: 10px;
+}
+
+/* Обращаюсь к карточке по Id */
+#border-1 {
+    background: palegreen;
+    padding: 10px;
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color:#8B0000 */
+    border: 3px solid #eb5a07;
+    border-radius: 5px;
+    margin-bottom: 20px;   
+}
+
+/* Обращаюсь к карточке по id задаю границы */
+#border-2 {
+    background: PaleVioletRed;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Обращаюсь к карточке по id задаю границы */
+#border-3 {
+    background: PapayaWhip;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border-left: 10px solid rgb(77, 69, 69);
+    margin-bottom: 20px;
+}
+
+/* Обращаюсь к карточке по id задаю границы только с 2х сторон */
+#border-4 {
+    border-bottom: 2px solid darkblue;
+    border-right: 6px solid darkblue;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Обращаюсь к классу link чтобы задать форму */
+.link {
+    background: #003e00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Обращаюсь к корневому тегу "a" ссылка, чтобы задать белый цвет */
+a {
+    color: aliceblue;
+}

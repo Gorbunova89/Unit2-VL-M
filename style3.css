@@ -1,0 +1,122 @@
+/* Обращаемся к корневому тегу без точки, чтобы задать цвет */
+body {
+    background: seagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Убираю внешние и внутренние отступы, чтобы потом задавать самостоятельно */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Задаю общие свойства для всего контейнера */
+.container {
+    max-width: 750px;
+    margin: auto;
+    background: lavender;
+    padding: 20px 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+/* Разбираем отличия inline, block, inline-block
+.inline {
+    /* display: flex; */
+ */
+
+.inline li {
+    display: inline;
+}
+
+.box {
+    width: 32%;
+    border: 1px solid black;
+    background: blanchedalmond;
+    display: inline-block;
+    box-sizing: border-box;
+   
+}
+
+/* img {
+   margin: 50 px 0px;   
+    
+} */
+
+.img {
+    /* margin: auto; */
+    margin: 40px auto;
+    width: 200px;
+    /* display: block; */
+    display: inline;
+    padding: 20px;
+}
+
+.img:hover {
+    
+}
+
+.playground {
+    border: 4px solid black;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+.post-box {
+    width: 50px;
+    height: 50px;
+    background: coral;
+    position: absolute;
+    position: fixed;
+    /* position: static; */
+    /* left top right bottom */
+    /* top: 0; */
+    /* left: 0; */
+    /* bottom: 0;
+    right: 120px; */
+    
+}
+
+.navbar {
+    background: lightgreen;
+    padding: 20px 5px;
+    /* margin: 50px 50px; */
+    /* max-width: 750px; */
+    /* min-width: 400px; */
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    /* padding: 10px; */
+    display: flex;
+}
+
+.navbar ul li {
+    /* margin-right: 20px; */
+    margin: auto;
+    font-weight: bold;
+}
+
+.navbar ul li:hover {
+    background: #56a049;
+    padding: 10px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.card {
+    margin: 50px 0px;
+}
+
+
+

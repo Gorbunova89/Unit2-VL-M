@@ -1,0 +1,197 @@
+body {
+    background: antiquewhite;
+    /* margin-top: 30px;   */
+}
+
+/* Обращаюсь ко всему документу, чтобы убрать все отступы */
+* {
+    margin: 0;
+    padding: 0;
+    /* background: antiquewhite;   */
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    background: LightBlue;
+    padding: 10px 5px;
+}
+
+.box {
+    background: DarkSlateGrey;
+    color:antiquewhite;
+    /* padding: 15px; */
+    /* top & bottom / left & right */
+    padding: 15px 40px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.blocks {
+    width: 100%;
+    max-width: 750px;
+    /* margin: 80px 40px; */
+    margin: auto;
+    /* padding: 20px; */
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+   
+}
+
+/* 4 элемента суммарно дают сумму 100% */
+.blocks .block {
+    width: 25%;
+    background: #2c2c2c;
+    height: 50px;
+    float: left;
+    border: 4px solid green;
+    box-sizing: border-box;
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* margin-bottom: 50px; */
+}
+
+a {
+    color:rgb(2, 83, 94);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Задаю изменение цвета ссылки при наведении с помощью псевдоселектора */
+a:hover {
+    color: #7a1007;
+    font-size: 24px;
+}
+
+/* a:visited {
+    color:black;
+} */
+
+.box:hover {
+    background: LightSeaGreen;
+}
+
+.block:hover {
+    background: #ff0080;
+}
+
+.btn {
+    background: rgb(2, 83, 94);
+    padding: 10px 20px;
+    color:azure;
+    font-family: inherit;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* задаю полупрозрачность кнопке */
+.btn:hover {
+    opacity: 0.8;
+    color: #ff0080
+}
+
+.card {
+    margin: 5px;
+    /* margin-left: 20px; */
+    padding: 20px 40px;
+}
+
+.list {
+    margin-bottom: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table td:hover {
+    background: #c981c6;
+}
+
+/* Подсвечиваем каждую четную строчку */
+.table  tr:nth-child(even) {
+    background: #aaa8a8;
+}
+
+/* подсвечиваем каждую нечетную строчку */
+.table tr:nth-child(odd) {
+    background: #eaf1cd;
+}
+
+/* подсвечиваем столбик по вертикали */
+.table td:nth-last-child(5) {
+    background: #f99188;
+}
+
+.navbar {
+    background: LightBlue;
+    padding: 10px 5px;
+    /* margin: 50px 50px; */
+    max-width: 750px;
+    /* min-width: 400px; */
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    /* padding: 10px; */
+    display: flex;
+}
+
+.navbar ul li {
+    /* margin-right: 20px; */
+    margin: auto;
+    font-weight: bold;
+}
+
+.navbar ul li:hover {
+    background: #c981c6;
+    padding: 10px;
+}
+
+.link {
+    background: #f99188;
+    padding: 10px;
+    margin: 30px 10px;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
